@@ -72,4 +72,30 @@
 		"techRequired": "Ecology",
 		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [Water] tiles <with [1] to [6] neighboring [Undersea Lab] tiles>"],
 	},
+	  {
+    "name": "Iron Foundry",
+    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+    "production": 1,
+    "turnsToBuild": 8,
+    "techRequired": "Iron Working"
+    "uniques": [
+        "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Iron Foundry] tiles>",
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Charcoal Maker] tiles>",
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [City] tiles>",
+        "Pillaging this improvement yields approximately [+30 Gold]", "Provides [1] [Iron]",
+    	"[+1 Production] <after discovering [Chemistry]>","[+2 Production] <after discovering [Industrialization]>"]
+  }
+		  {
+    "name": "Charcoal Maker",
+    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+    "production": 1,
+    "gold": 1,
+    "turnsToBuild": 8,
+    "techRequired": "Industrialization"
+    "uniques": [
+        "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Charcoal Maker] tiles>",
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Iron Foundry] tiles>",
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [City] tiles>",
+        "Pillaging this improvement yields approximately [+30 Gold]", "Provides [1] [Coal]"]
+  }
 ]
