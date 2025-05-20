@@ -6,7 +6,7 @@
     "gold": 2,
     "culture": 2,
     "turnsToBuild": 10,
-    "techRequired": "Urbanization"
+    "techRequired": "Electricity"
     "uniques": [
         "Gain control over [all] tiles in a [1]-tile radius", "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Urban Area] tiles>",
         "Pillaging this improvement yields approximately [+40 Gold]"]
