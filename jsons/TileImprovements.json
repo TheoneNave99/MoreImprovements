@@ -19,7 +19,7 @@
     "happiness": 2,
     "turnsToBuild": 5,
     "techRequired": "Refrigeration"
-    "uniques": ["Can only be built on [Coastal] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
+    "uniques": ["Cannot be built on [Land] tiles <with [1] to [6] neighboring [Beach Resort] tiles>","Can only be built on [Coastal] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
   }
   {
 		"name": "Industrial Farm",
@@ -63,6 +63,7 @@
     "uniques": [
         "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Iron Foundry] tiles>",
 	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Charcoal Maker] tiles>",
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Beach Resort] tiles>",
 	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [City] tiles>",
         "Pillaging this improvement yields approximately [+30 Gold]", "Provides [1] [Iron]",
     	"[+1 Production] <after discovering [Chemistry]>","[+2 Production] <after discovering [Industrialization]>"]
@@ -75,8 +76,9 @@
     "turnsToBuild": 8,
     "techRequired": "Industrialization"
     "uniques": [
-        "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Charcoal Maker] tiles>",
 	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Iron Foundry] tiles>",
+        "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Charcoal Maker] tiles>",
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Beach Resort] tiles>",
 	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [City] tiles>",
         "Pillaging this improvement yields approximately [+30 Gold]", "Provides [1] [Coal]"]
   }
