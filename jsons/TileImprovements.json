@@ -59,10 +59,10 @@
 		"turnsToBuild": 1,
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 3,
-    "production": 1,
-    "gold": 1,
+    		"production": 1,
+    		"gold": 1,
 		"techRequired": "Industrialization",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]"],
+		"uniques": ["Pillaging this improvement yields approximately [+30 Gold]", "Cannot be built on [Water] tiles <with [1] to [6] neighboring [Fishing Fleet] tiles>"],
 	},
     {
 		"name": "Undersea Lab",
@@ -70,7 +70,6 @@
 		"terrainsCanBeBuiltOn": ["Ocean"],
 		"science": 4,
 		"techRequired": "Ecology",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]",
-          "Cannot be built on [Water] tiles <with [1] to [6] neighboring [Undersea Lab] tiles>"],
+		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [Water] tiles <with [1] to [6] neighboring [Undersea Lab] tiles>"],
 	},
 ]
