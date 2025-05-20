@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Urban Area",
+    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+    "production": 2,
+    "gold": 2,
+    "culture": 2,
+    "turnsToBuild": 10,
+    "techRequired": "Urbanization"
+    "uniques": [
+        "Gain control over [all] tiles in a [1]-tile radius", "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Urban Area] tiles>",
+        "Pillaging this improvement yields approximately [+40 Gold]"]
+  }
+  {
+    "name": "Beach Resort",
+    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+    "culture": 2,
+    "gold": 2,
+    "happiness": 2,
+    "turnsToBuild": 5,
+    "techRequired": "Refrigeration"
+    "uniques": ["Can only be built on [Coastal] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
+  }
+  {
+		"name": "Industrial Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 4,
+		"turnsToBuild": 10,
+		"techRequired": "Industrialization",
+		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+          "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Industrial Farm] tiles>",
+          "Pillaging this improvement yields approximately [+30 Gold]"],
+	},
+  	{
+		"name": "Power Plant",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+		"gold": 2,
+    "production": 2,
+		"turnsToBuild": 10,
+		"techRequired": "Steam Power",
+		"uniques": ["Cannot be built on [Land] tiles <with [1] to [6] neighboring [Power Plant] tiles>",
+      "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Beach Resort] tiles>",
+      "Cannot be built on [Land] tiles <with [1] to [6] neighboring [City] tiles>",
+      "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Farm] tiles>",
+      "Pillaging this improvement yields approximately [+30 Gold]", "[+1 Gold] <after discovering [Electricity]>",
+      "[+1 Production] <after discovering [Electricity]>"],
+	},
+  	{
+		"name": "Lumber Operation",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"production": 4,
+		"turnsToBuild": 10,
+		"techRequired": "Industrialization",
+		"uniques": ["Cannot be built on [Land] tiles <with [1] to [6] neighboring [Lumber Operation] tiles>",
+      "Pillaging this improvement yields approximately [+30 Gold]"],
+	},
+  	{
+		"name": "Fishing Fleet",
+		"turnsToBuild": 1,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 3,
+    "production": 1,
+    "gold": 1,
+		"techRequired": "Industrialization",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+30 Gold]"],
+	},
+    {
+		"name": "Undersea Lab",
+		"turnsToBuild": 1,
+		"terrainsCanBeBuiltOn": ["Ocean"],
+		"science": 4,
+		"techRequired": "Ecology",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]",
+          "Cannot be built on [Water] tiles <with [1] to [6] neighboring [Undersea Lab] tiles>"],
+	},
+]
