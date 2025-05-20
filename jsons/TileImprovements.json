@@ -13,7 +13,7 @@
   }
   {
     "name": "Beach Resort",
-    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+    "terrainsCanBeBuiltOn": ["Land"],
     "culture": 2,
     "gold": 2,
     "happiness": 2,
