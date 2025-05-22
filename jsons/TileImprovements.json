@@ -34,7 +34,7 @@
 		"name": "Power Plant",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 2,
-    "production": 2,
+		"production": 2,
 		"turnsToBuild": 10,
 		"techRequired": "Steam Power",
 		"uniques": ["Must be next to [City center]", "Pillaging this improvement yields approximately [+30 Gold]",
@@ -57,7 +57,7 @@
     "uniques": ["Must be next to [City center]", "Provides [1] [Iron]", "Pillaging this improvement yields approximately [+30 Gold]",
          "[+1 Production] <after discovering [Chemistry]>","[+2 Production] <after discovering [Industrialization]>"]
   }
-		  {
+  {
     "name": "Charcoal Maker",
     "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
     "production": 1,
