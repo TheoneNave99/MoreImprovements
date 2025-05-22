@@ -66,4 +66,16 @@
     "techRequired": "Industrialization"
     "uniques": ["Must be next to [City center]","Pillaging this improvement yields approximately [+30 Gold]", "Provides [1] [Coal]"]
   }
+  {
+    "name": "National Park",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "science": 2,
+    "culture": 2,
+    "happiness": 1,
+    "turnsToBuild": 10,
+    "techRequired": "Ecology"
+    "uniques": [
+        "Must be next to [{unimproved} {Land}]", "Tile provides yield without assigned population",
+        "Pillaging this improvement yields approximately [+40 Gold]"]
+  }
 ]
