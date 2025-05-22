@@ -8,7 +8,7 @@
     "turnsToBuild": 10,
     "techRequired": "Electricity"
     "uniques": [
-        "Gain control over [all] tiles in a [1]-tile radius", "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Urban Area] tiles>",
+        "Must be next to [City center]", "Tile provides yield without assigned population", "Gives a defensive bonus of [+25]%",
         "Pillaging this improvement yields approximately [+40 Gold]"]
   }
   {
@@ -19,31 +19,26 @@
     "happiness": 2,
     "turnsToBuild": 5,
     "techRequired": "Refrigeration"
-    "uniques": ["Cannot be built on [Land] tiles <with [1] to [6] neighboring [Beach Resort] tiles>","Can only be built on [Coastal] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
+    "uniques": ["Can only be built on [Coastal] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
   }
   {
 		"name": "Industrial Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Grassland","Flood plains"],
 		"food": 4,
 		"turnsToBuild": 10,
 		"techRequired": "Industrialization",
 		"uniques": ["Can also be built on tiles adjacent to fresh water", 
-          "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Industrial Farm] tiles>",
           "Pillaging this improvement yields approximately [+30 Gold]"],
 	},
   	{
 		"name": "Power Plant",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 2,
     "production": 2,
 		"turnsToBuild": 10,
 		"techRequired": "Steam Power",
-		"uniques": ["Cannot be built on [Land] tiles <with [1] to [6] neighboring [Power Plant] tiles>",
-      "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Beach Resort] tiles>",
-      "Cannot be built on [Land] tiles <with [1] to [6] neighboring [City] tiles>",
-      "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Farm] tiles>",
-      "Pillaging this improvement yields approximately [+30 Gold]", "[+1 Gold] <after discovering [Electricity]>",
-      "[+1 Production] <after discovering [Electricity]>"],
+		"uniques": ["Must be next to [City center]", "Pillaging this improvement yields approximately [+30 Gold]",
+			"[+1 Gold] <after discovering [Electricity]>", "[+1 Production] <after discovering [Electricity]>"],
 	},
   	{
 		"name": "Lumber Operation",
@@ -51,22 +46,16 @@
 		"production": 4,
 		"turnsToBuild": 10,
 		"techRequired": "Industrialization",
-		"uniques": ["Cannot be built on [Land] tiles <with [1] to [6] neighboring [Lumber Operation] tiles>",
-      "Pillaging this improvement yields approximately [+30 Gold]"],
+		"uniques": ["Can only be built on [Road] tiles","Pillaging this improvement yields approximately [+30 Gold]"],
 	},
 	  {
     "name": "Iron Foundry",
-    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+    "terrainsCanBeBuiltOn": ["Land"],
     "production": 1,
     "turnsToBuild": 8,
     "techRequired": "Iron Working"
-    "uniques": [
-        "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Iron Foundry] tiles>",
-	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Charcoal Maker] tiles>",
-	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Beach Resort] tiles>",
-	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [City] tiles>",
-        "Pillaging this improvement yields approximately [+30 Gold]", "Provides [1] [Iron]",
-    	"[+1 Production] <after discovering [Chemistry]>","[+2 Production] <after discovering [Industrialization]>"]
+    "uniques": ["Must be next to [City center]", "Provides [1] [Iron]", "Pillaging this improvement yields approximately [+30 Gold]",
+         "[+1 Production] <after discovering [Chemistry]>","[+2 Production] <after discovering [Industrialization]>"]
   }
 		  {
     "name": "Charcoal Maker",
@@ -75,11 +64,6 @@
     "gold": 1,
     "turnsToBuild": 8,
     "techRequired": "Industrialization"
-    "uniques": [
-	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Iron Foundry] tiles>",
-        "Cannot be built on [Land] tiles <with [1] to [6] neighboring [Charcoal Maker] tiles>",
-	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Beach Resort] tiles>",
-	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [City] tiles>",
-        "Pillaging this improvement yields approximately [+30 Gold]", "Provides [1] [Coal]"]
+    "uniques": ["Must be next to [City center]","Pillaging this improvement yields approximately [+30 Gold]", "Provides [1] [Coal]"]
   }
 ]
