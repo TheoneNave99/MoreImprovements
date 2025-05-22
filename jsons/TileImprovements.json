@@ -2,7 +2,7 @@
   {
     "name": "Urban Area",
     "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-    "production": 2,
+    "science": 2,
     "gold": 2,
     "culture": 2,
     "turnsToBuild": 10,
