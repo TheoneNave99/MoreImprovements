@@ -1,10 +1,10 @@
 [
   {
     "name": "Urban Area",
-    "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+    "terrainsCanBeBuiltOn": ["Land"],
     "science": 2,
     "gold": 2,
-    "culture": 2,
+    "culture": 3,
     "turnsToBuild": 10,
     "techRequired": "Electricity"
     "uniques": [
@@ -69,13 +69,12 @@
   {
     "name": "National Park",
     "terrainsCanBeBuiltOn": ["Land"],
-    "science": 2,
+    "science": 3,
     "culture": 2,
-    "happiness": 1,
+    "happiness": 2,
     "turnsToBuild": 10,
     "techRequired": "Ecology"
     "uniques": [
-        "Must be next to [{unimproved} {Land}]", "Tile provides yield without assigned population",
-        "Pillaging this improvement yields approximately [+40 Gold]"]
+        "Must be next to [{unimproved} {Land}]", "Tile provides yield without assigned population"]
   }
 ]
